@@ -1,7 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/cursive-sans');
-
 html, body{
-font-family: 'Cursive Sans', sans-serif;
 margin: 0;
 background-color: whitesmoke;
 }
@@ -9,7 +6,7 @@ header{
 background: linear-gradient(50deg,rgb(1,158,255),rgb(80, 232, 255));
 padding: 60px;
 text-align: center;
-
+font-family: serif, sans-serif;
 }
 h1{
 font-size: 90px;
@@ -19,19 +16,31 @@ h2{
 text-align: center;
 padding: 25px;
 padding-bottom: 0px;
+margin-top: 75px;
 color: rgb(2, 73, 255);
 text-shadow: 0 3px 5px rgb(133, 233, 255),  
 0px 0px 75px rgb(52, 208, 255);
 font-size: 40px;
-font-family: serif, 'Cursive Sans';
+font-family: sans-serif ;
 }
 h4{
 font-family: sans-serif;
 font-size: 25px;
+padding-bottom: -50px;
+margin-bottom: -15px;
 color: rgb(2, 73, 255);
 text-shadow: 0 3px 5px rgb(133, 233, 255),  
 0px 0px 75px rgb(52, 208, 255);
 }
+h5{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: -50px;
+    margin-top: 15px;
+    color: rgb(2, 73, 255);
+    text-shadow: 0 3px 5px rgb(133, 233, 255),  
+    0px 0px 75px rgb(52, 208, 255);
+    }
 h6{
 margin-top: -75px;
 font-size: 40px;
@@ -47,15 +56,20 @@ border: 15px solid whitesmoke;
 max-width: 70%;
 margin:  auto;
 padding: 40x 20px;
-font-family: sans-serif, 'Cursive Sans';
+font-family: serif, 'Cursive Sans';
+}
+ol{
+    font-size: 20px;
 }
 img.big-image{
+    margin-top: 50px;
 max-width: 100%;
 box-shadow: 8px 8px 15px #413e3e;
 }
 p{
     text-align: center;
-    font-size: 17px;
+    font-size: 19.5px;
+    font-family: serif;
 }
 p.cap3on{
 font-size: 12px;
@@ -72,7 +86,7 @@ text-decoration: none;
 
 .image-section {
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 .image-container {
     display: flex;
@@ -84,6 +98,7 @@ text-decoration: none;
     padding: 60px;
     text-align: center;
 }
+
 .action-image {
     width: 200px; 
     height: 200px;
@@ -98,21 +113,21 @@ text-decoration: none;
 .rounded-image {
     border-radius: 50%;
     max-width: 100%;
-    box-shadow: 8px 8px 15px rgb(90, 82, 82);
+    box-shadow: 5px 5px 12px rgb(43, 71, 86);
 }
 
 
 
 footer{
 background: linear-gradient(45deg,rgb(1,158,255),rgb(80, 232, 255));
-margin-top: 20px;
+margin-top: 83px;
 padding: 15px 20px;
 background-color: linear-gradient(45deg,rgb(1,158,255),rgb(80, 232, 255));
 }
 footer ul{
 text-align: center;
-font-size: 20px;
-font-family: sans-serif, 'Cursive Sans';
+font-size: 22px;
+font-family: arial;
 }
 footer ul li{
 display: inline-block;
